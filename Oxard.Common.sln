@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oxard.Common", "Oxard.Common\Oxard.Common.csproj", "{19361E46-8D6A-4D3B-BC8A-63A248D427B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B307EACF-59DF-4320-95BA-A9DB2F5DB6D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oxard.Common.Tests", "Oxard.Common.Tests\Oxard.Common.Tests.csproj", "{F117A1AB-31A1-41E5-8CBC-88CD1D0ACE0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oxard.Common.Tests.FakeStandard", "Oxard.Common.Tests.FakeStandard\Oxard.Common.Tests.FakeStandard.csproj", "{D411582C-BCCC-4815-A634-81A84B76E3E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oxard.Common.Diagnostics", "Oxard.Common.Diagnostics\Oxard.Common.Diagnostics.csproj", "{6199581B-0A60-446B-87DD-8250A29084C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oxard.Common.Diagnostics.Tests", "Oxard.Common.Diagnostics.Tests\Oxard.Common.Diagnostics.Tests.csproj", "{BD329781-9F9B-40C2-984F-2E846E9EE781}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19361E46-8D6A-4D3B-BC8A-63A248D427B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19361E46-8D6A-4D3B-BC8A-63A248D427B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19361E46-8D6A-4D3B-BC8A-63A248D427B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19361E46-8D6A-4D3B-BC8A-63A248D427B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F117A1AB-31A1-41E5-8CBC-88CD1D0ACE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F117A1AB-31A1-41E5-8CBC-88CD1D0ACE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F117A1AB-31A1-41E5-8CBC-88CD1D0ACE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F117A1AB-31A1-41E5-8CBC-88CD1D0ACE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D411582C-BCCC-4815-A634-81A84B76E3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D411582C-BCCC-4815-A634-81A84B76E3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D411582C-BCCC-4815-A634-81A84B76E3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D411582C-BCCC-4815-A634-81A84B76E3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6199581B-0A60-446B-87DD-8250A29084C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6199581B-0A60-446B-87DD-8250A29084C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6199581B-0A60-446B-87DD-8250A29084C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6199581B-0A60-446B-87DD-8250A29084C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD329781-9F9B-40C2-984F-2E846E9EE781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD329781-9F9B-40C2-984F-2E846E9EE781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD329781-9F9B-40C2-984F-2E846E9EE781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD329781-9F9B-40C2-984F-2E846E9EE781}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F117A1AB-31A1-41E5-8CBC-88CD1D0ACE0D} = {B307EACF-59DF-4320-95BA-A9DB2F5DB6D6}
+		{D411582C-BCCC-4815-A634-81A84B76E3E5} = {B307EACF-59DF-4320-95BA-A9DB2F5DB6D6}
+		{BD329781-9F9B-40C2-984F-2E846E9EE781} = {B307EACF-59DF-4320-95BA-A9DB2F5DB6D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F305291-45A7-4721-94C8-FFC53F90E1C8}
+	EndGlobalSection
+EndGlobal
